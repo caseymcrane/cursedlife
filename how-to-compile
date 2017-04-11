@@ -1,0 +1,3 @@
+Alright, until I can make a proper makefile that respects source directories, just compile like this:
+
+g++ -Wall -g -I include -o cursedlife -L../lib -lncurses src/*.cpp
