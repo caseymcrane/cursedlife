@@ -27,6 +27,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "cell.h"
+#include "region.h"
+
 
 //here we do all the miscellaneous curses setup and return
 //the character we'll be using for curses_input
@@ -63,6 +66,7 @@ int init_curses()
 int rule[2][9] = {	{-1, 3,-1,-1,-1,-1,-1,-1,-1},
 					{ 0, 1, 4, 5, 6, 7, 8,-1,-1}};
 
+/*
 class Cell {
 	
 	int x;
@@ -146,6 +150,7 @@ void Region::paint_region()
 		}
 	}
 }
+*/
 
 int neighbors(int y,int x)
 {
